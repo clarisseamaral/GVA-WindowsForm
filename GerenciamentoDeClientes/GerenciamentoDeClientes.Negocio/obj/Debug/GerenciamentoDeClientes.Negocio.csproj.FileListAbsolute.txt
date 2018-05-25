@@ -1,0 +1,26 @@
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.pdb

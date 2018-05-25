@@ -1,0 +1,226 @@
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.CoreCompileInputs.cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\clarisse.heleno\AppData\Roaming\Skype\My Skype Received Files\GerenciamentoDeClientesv1.3\GerenciamentoDeClientesv1.3\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.CoreCompileInputs.cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\New folder\GerenciamentoDeClientesv1.4\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.CoreCompileInputs.cache
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+G:\2- Sistemas de Informação\5º periodo\Interação Humano Computador\Trabalho IHC\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv2.1\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GVA_Clarisse_Thalita_v2\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll

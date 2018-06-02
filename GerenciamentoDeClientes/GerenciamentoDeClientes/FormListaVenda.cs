@@ -15,7 +15,7 @@ namespace GerenciamentoDeClientes
         public FormListaVenda()
         {
             InitializeComponent();
-            PreencheComboCliente();
+            CarregaCombos();
         }
 
         #region Eventos
@@ -33,9 +33,10 @@ namespace GerenciamentoDeClientes
             {
                 var filtro = new FiltroTelaVendas()
                 {
-                    CodigoCliente = cbCliente.SelectedValue == null ? (int?)null : int.Parse(cbCliente.SelectedValue.ToString()),
+                    CodigoCliente = cbCliente.SelectedValue == null ? 0 : int.Parse(cbCliente.SelectedValue.ToString()),
                     DataInicial = String.IsNullOrWhiteSpace(txtDataInicial.Text.Replace("_", "").Replace("/", "")) ? (DateTime?)null : DateTime.Parse(txtDataInicial.Text),
-                    DataFinal = String.IsNullOrWhiteSpace(txtDataFinal.Text.Replace("_", "").Replace("/", "")) ? (DateTime?)null : DateTime.Parse(txtDataFinal.Text)
+                    DataFinal = String.IsNullOrWhiteSpace(txtDataFinal.Text.Replace("_", "").Replace("/", "")) ? (DateTime?)null : DateTime.Parse(txtDataFinal.Text),
+                    Status = cbStatus.SelectedValue == null ? 0 : int.Parse(cbStatus.SelectedValue.ToString())
                 };
 
                 var lvenda = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
@@ -102,33 +103,19 @@ namespace GerenciamentoDeClientes
 
             if (vendas.Count > 0)
             {
-                int i = 0;
                 foreach (var item in vendas)
                 {
-                    var ldataPagamento = item.DataPagamento.HasValue ? item.DataPagamento.Value.ToString("dd/MM/yyy") : string.Empty;
                     var lstatus = "Pendente";
 
-                    if (item.DataVencimento < DateTime.Now && !item.DataPagamento.HasValue)
-                        lstatus = "Vencido";
-                    else if (item.DataPagamento.HasValue)
+                    if (item.Status == 2)
                         lstatus = "Pago";
+                    else if(item.Status == 3)
+                        lstatus = "Vencido";
 
+                    var ldataPagamento = item.DataPagamento.HasValue ? item.DataPagamento.Value.ToString("dd/MM/yyy") : string.Empty;
+                    
                     gvVendas.Rows.Add(item.Cliente.Nome, item.DataVenda.ToString("dd/MM/yyy"), item.DataVencimento.ToString("dd/MM/yyy"), ldataPagamento, item.ValorTotal.ToString("C2"), item.Descricao, lstatus, item.Codigo);
 
-                    switch (lstatus)
-                    {
-                        case "Pendente":
-                            gvVendas.Rows[i].DefaultCellStyle.ForeColor = Color.DarkOrange;
-                            break;
-                        case "Vencido":
-                            gvVendas.Rows[i].DefaultCellStyle.ForeColor = Color.Red;
-                            break;
-                        case "Pago":
-                            gvVendas.Rows[i].DefaultCellStyle.ForeColor = Color.Green;
-                            break;
-                    }
-
-                    i++;
                 }
 
                 gvVendas.Sort(this.Nome, ListSortDirection.Ascending);
@@ -139,9 +126,35 @@ namespace GerenciamentoDeClientes
             }
         }
 
-        private void PreencheComboCliente()
+        private void CarregaCombos()
         {
-            Dictionary<string, string> comboSource = new Dictionary<string, string>();
+            PreencheCombo(cbCliente, BuscaClientes());
+            PreencheCombo(cbStatus, BuscaStatus());
+        }
+
+        private void PreencheCombo(ComboBox lcombo, Dictionary<string, string> comboSource)
+        {
+            lcombo.DataSource = new BindingSource(comboSource, null);
+            lcombo.DisplayMember = "Value";
+            lcombo.ValueMember = "Key";
+            lcombo.SelectedItem = null;
+        }
+
+        private Dictionary<string, string> BuscaStatus()
+        {
+            var status = new Dictionary<string, string>();
+
+            status.Add("0", "");
+            status.Add("2", "Pago");
+            status.Add("1", "Pendente");
+            status.Add("3", "Vencido");
+
+            return status;
+        }
+
+        private Dictionary<string, string> BuscaClientes()
+        {
+            var comboSource = new Dictionary<string, string>();
 
             var clientes = CadastroCliente.BuscaTodosClientes().OrderBy(p => p.Nome);
 
@@ -151,18 +164,8 @@ namespace GerenciamentoDeClientes
             {
                 comboSource.Add(item.Codigo.ToString(), item.Nome);
             }
-
-            cbCliente.DataSource = new BindingSource(comboSource, null);
-            cbCliente.DisplayMember = "Value";
-            cbCliente.ValueMember = "Key";
-            cbCliente.SelectedItem = null;
+            return comboSource;
         }
 
-        private void btnEstatistica_Click(object sender, EventArgs e)
-        {
-            //var formVenda = new FormGrafico();
-            //formVenda.StartPosition = FormStartPosition.Manual;
-            //formVenda.ShowDialog(this);
-        }
     }
 }

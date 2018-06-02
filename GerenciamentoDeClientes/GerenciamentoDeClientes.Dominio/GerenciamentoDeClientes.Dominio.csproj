@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Cliente.cs" />
     <Compile Include="FiltroTelaVendas.cs" />
+    <Compile Include="GraficoClientes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Venda.cs" />
   </ItemGroup>

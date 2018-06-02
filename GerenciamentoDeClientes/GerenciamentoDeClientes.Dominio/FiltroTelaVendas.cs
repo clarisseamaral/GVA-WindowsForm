@@ -10,7 +10,7 @@ namespace GerenciamentoDeClientes.Dominio
     {
         public int Codigo { get; set; }
 
-        public int? CodigoCliente { get; set; }
+        public int CodigoCliente { get; set; }
 
         public DateTime? DataInicial { get; set; }
 
@@ -18,6 +18,6 @@ namespace GerenciamentoDeClientes.Dominio
 
         public string Descricao { get; set; }
 
-        public bool? FlgPago { get; set; }
+        public int Status { get; set; }
     }
 }

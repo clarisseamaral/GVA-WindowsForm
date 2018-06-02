@@ -99,6 +99,15 @@ namespace GerenciamentoDeClientes.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string ConfirmaCancelar {
+            get {
+                return ResourceManager.GetString("ConfirmaCancelar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tem certeza que deseja apagar?.
         /// </summary>
         internal static string ConfirmarApagar {

@@ -18,8 +18,17 @@ namespace GerenciamentoDeClientes.Dados
 
         public void Cria(Venda venda)
         {
+            int lstatus = 1;  //Pendente
+
+            if (venda.DataPagamento.HasValue)
+                lstatus = 2; //Pago
+            else if (venda.DataVencimento < DateTime.Now && !venda.DataPagamento.HasValue)
+                lstatus = 3; //Vencido
+
+            venda.Status = lstatus;
+
             venda.Codigo = BuscaProximoId();
-            var consultaSerializado = string.Join(Separador.ToString(), venda.Codigo, venda.DataPagamento, venda.Cliente.Codigo, venda.Descricao, venda.DataVenda, venda.ValorTotal, venda.DataVencimento);
+            var consultaSerializado = string.Join(Separador.ToString(), venda.Codigo, venda.DataPagamento, venda.Cliente.Codigo, venda.Descricao, venda.DataVenda, venda.ValorTotal, venda.DataVencimento, venda.Status);
             File.AppendAllText(NomeArquivo, consultaSerializado + "\r\n");
         }
 
@@ -27,8 +36,8 @@ namespace GerenciamentoDeClientes.Dados
         {
             var lvendas = BuscaTodas();
 
-            if (venda.CodigoCliente.HasValue)
-                lvendas = lvendas.Where(v => v.Cliente.Codigo == venda.CodigoCliente.Value);
+            if (venda.CodigoCliente > 0)
+                lvendas = lvendas.Where(v => v.Cliente.Codigo == venda.CodigoCliente);
 
             if (venda.DataFinal.HasValue)
                 lvendas = lvendas.Where(v => v.DataVenda <= venda.DataFinal.Value);
@@ -36,19 +45,8 @@ namespace GerenciamentoDeClientes.Dados
             if (venda.DataInicial.HasValue)
                 lvendas = lvendas.Where(v => v.DataVenda >= venda.DataInicial.Value);
 
-            //if (String.IsNullOrEmpty(venda.Descricao))
-            //    lvendas = lvendas.Where(v => v.Descricao.ToLower().Contains(venda.Descricao.ToLower()));
-
-            //if (venda.DataPagamento.HasValue)
-            //    lvendas = lvendas.Where(v => v.DataPagamento == v.DataPagamento.Value);
-
-            //if (venda.FlgPago.HasValue)
-            //{
-            //    if (venda.FlgPago.Value)
-            //        lvendas = lvendas.Where(v => v.DataPagamento.HasValue);
-            //    else
-            //        lvendas = lvendas.Where(v => !v.DataPagamento.HasValue);
-            //}
+            if (venda.Status > 0)
+                lvendas = lvendas.Where(v => v.Status == venda.Status);
 
             return lvendas;
         }
@@ -86,6 +84,7 @@ namespace GerenciamentoDeClientes.Dados
                     DataVenda = DateTime.Parse(valores[4]),
                     ValorTotal = double.Parse(valores[5]),
                     DataVencimento = DateTime.Parse(valores[6]),
+                    Status = int.Parse(valores[7]),
                 };
             }
         }
@@ -101,6 +100,9 @@ namespace GerenciamentoDeClientes.Dados
 
             File.WriteAllLines(NomeArquivo, linhas.Where(l => l.Split(Separador)[0] != codigo.ToString()));
         }
+
+        //TODO: Qtd vendas x Data  GERAL
+        //TODO: Qtd vendas x Data  Por cliente
 
     }
 }

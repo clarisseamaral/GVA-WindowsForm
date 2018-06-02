@@ -83,7 +83,6 @@ namespace GerenciamentoDeClientes
         }
         #endregion
 
-
         private void PreencheGrid(List<Cliente> clientes)
         {
             gvPessoas.Rows.Clear();

@@ -18,5 +18,6 @@ namespace GerenciamentoDeClientes.Dominio
 
         public double ValorTotal { get; set; }
 
+        public int Status { get; set; }
     }
 }

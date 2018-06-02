@@ -173,7 +173,7 @@ namespace GerenciamentoDeClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 329);
+            this.ClientSize = new System.Drawing.Size(807, 390);
             this.ControlBox = false;
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.lblNotificacao);

@@ -50,10 +50,18 @@ namespace GerenciamentoDeClientes
             AbrirVenda();
         }
 
+        private void gráficosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fechaTelaAberta();
+            var formGrafico = new FormGrafico();
+            formGrafico.MdiParent = this;
+            formGrafico.Show();
+        }
+
         private void AbrirVenda()
         {
             fechaTelaAberta();
-            FormListaVenda formVenda = new FormListaVenda();
+            var formVenda = new FormListaVenda();
             formVenda.MdiParent = this;
             formVenda.Show();
         }
@@ -61,7 +69,7 @@ namespace GerenciamentoDeClientes
         private void AbrirCliente()
         {
             fechaTelaAberta();
-            FormListaCliente formCliente = new FormListaCliente();
+            var formCliente = new FormListaCliente();
             formCliente.MdiParent = this;
             formCliente.Show();
         }
@@ -112,5 +120,6 @@ namespace GerenciamentoDeClientes
                     e.Cancel = true;
             }
         }
+
     }
 }

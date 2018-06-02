@@ -44,13 +44,16 @@ namespace GerenciamentoDeClientes
             this.label5 = new System.Windows.Forms.Label();
             this.cbStatus = new System.Windows.Forms.ComboBox();
             this.lblStatus = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Pago = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Vencimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Pagamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Editar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Apagar = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -88,7 +91,6 @@ namespace GerenciamentoDeClientes
             this.Pagamento,
             this.Valor,
             this.Email,
-            this.Status,
             this.Codigo,
             this.Editar,
             this.Apagar});
@@ -189,6 +191,47 @@ namespace GerenciamentoDeClientes
             this.lblStatus.TabIndex = 30;
             this.lblStatus.Text = "Status";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Green;
+            this.label3.Location = new System.Drawing.Point(722, 316);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.TabIndex = 34;
+            this.label3.Text = "Pago";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(673, 316);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.TabIndex = 33;
+            this.label2.Text = "Vencido";
+            // 
+            // Pago
+            // 
+            this.Pago.AutoSize = true;
+            this.Pago.ForeColor = System.Drawing.Color.DarkOrange;
+            this.Pago.Location = new System.Drawing.Point(617, 316);
+            this.Pago.Margin = new System.Windows.Forms.Padding(0);
+            this.Pago.Name = "Pago";
+            this.Pago.Size = new System.Drawing.Size(53, 13);
+            this.Pago.TabIndex = 32;
+            this.Pago.Text = "Pendente";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(562, 316);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.TabIndex = 31;
+            this.label1.Text = "Legenda:";
+            // 
             // Nome
             // 
             this.Nome.HeaderText = "Cliente";
@@ -222,21 +265,14 @@ namespace GerenciamentoDeClientes
             this.Valor.HeaderText = "Valor";
             this.Valor.Name = "Valor";
             this.Valor.ReadOnly = true;
-            this.Valor.Width = 54;
+            this.Valor.Width = 64;
             // 
             // Email
             // 
             this.Email.HeaderText = "Descrição do produto";
             this.Email.Name = "Email";
             this.Email.ReadOnly = true;
-            this.Email.Width = 130;
-            // 
-            // Status
-            // 
-            this.Status.HeaderText = "Status";
-            this.Status.Name = "Status";
-            this.Status.ReadOnly = true;
-            this.Status.Width = 70;
+            this.Email.Width = 140;
             // 
             // Codigo
             // 
@@ -269,6 +305,10 @@ namespace GerenciamentoDeClientes
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(807, 390);
             this.ControlBox = false;
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Pago);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cbStatus);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.label5);
@@ -301,7 +341,7 @@ namespace GerenciamentoDeClientes
                 return;
 
             //I supposed your button column is at index 0
-            if (e.ColumnIndex == 8)
+            if (e.ColumnIndex == 7)
             {
                 e.Paint(e.CellBounds, DataGridViewPaintParts.All);
                 var w = Properties.Resources.edit.Width;
@@ -312,7 +352,7 @@ namespace GerenciamentoDeClientes
                 e.Graphics.DrawImage(Properties.Resources.edit, new Rectangle(x, y, w, h));
                 e.Handled = true;
             }
-            else if (e.ColumnIndex == 9)
+            else if (e.ColumnIndex == 8)
             {
                 e.Paint(e.CellBounds, DataGridViewPaintParts.All);
                 var w = Properties.Resources.delete.Width;
@@ -339,13 +379,16 @@ namespace GerenciamentoDeClientes
         private Label label5;
         private ComboBox cbStatus;
         private Label lblStatus;
+        private Label label3;
+        private Label label2;
+        private Label Pago;
+        private Label label1;
         private DataGridViewTextBoxColumn Nome;
         private DataGridViewTextBoxColumn Telefone;
         private DataGridViewTextBoxColumn Vencimento;
         private DataGridViewTextBoxColumn Pagamento;
         private DataGridViewTextBoxColumn Valor;
         private DataGridViewTextBoxColumn Email;
-        private DataGridViewTextBoxColumn Status;
         private DataGridViewTextBoxColumn Codigo;
         private DataGridViewButtonColumn Editar;
         private DataGridViewButtonColumn Apagar;

@@ -18,17 +18,9 @@ namespace GerenciamentoDeClientes.Dados
 
         public void Cria(Venda venda)
         {
-            int lstatus = 1;  //Pendente
-
-            if (venda.DataPagamento.HasValue)
-                lstatus = 2; //Pago
-            else if (venda.DataVencimento < DateTime.Now && !venda.DataPagamento.HasValue)
-                lstatus = 3; //Vencido
-
-            venda.Status = lstatus;
-
+            //venda.Status = BuscaStatus(venda);
             venda.Codigo = BuscaProximoId();
-            var consultaSerializado = string.Join(Separador.ToString(), venda.Codigo, venda.DataPagamento, venda.Cliente.Codigo, venda.Descricao, venda.DataVenda, venda.ValorTotal, venda.DataVencimento, venda.Status);
+            var consultaSerializado = string.Join(Separador.ToString(), venda.Codigo, venda.DataPagamento, venda.Cliente.Codigo, venda.Descricao, venda.DataVenda, venda.ValorTotal, venda.DataVencimento);
             File.AppendAllText(NomeArquivo, consultaSerializado + "\r\n");
         }
 
@@ -45,8 +37,12 @@ namespace GerenciamentoDeClientes.Dados
             if (venda.DataInicial.HasValue)
                 lvendas = lvendas.Where(v => v.DataVenda >= venda.DataInicial.Value);
 
-            if (venda.Status > 0)
-                lvendas = lvendas.Where(v => v.Status == venda.Status);
+            if (venda.Status == 2)
+                lvendas = lvendas.Where(v => v.DataPagamento.HasValue);
+            else if (venda.Status == 3)
+                lvendas = lvendas.Where(v => v.DataVencimento < DateTime.Now && !v.DataPagamento.HasValue);
+            else if (venda.Status == 1)
+                lvendas = lvendas.Where(v => v.DataVencimento >= DateTime.Now && !v.DataPagamento.HasValue);
 
             return lvendas;
         }
@@ -84,7 +80,7 @@ namespace GerenciamentoDeClientes.Dados
                     DataVenda = DateTime.Parse(valores[4]),
                     ValorTotal = double.Parse(valores[5]),
                     DataVencimento = DateTime.Parse(valores[6]),
-                    Status = int.Parse(valores[7]),
+                    //Status = int.Parse(valores[7]),
                 };
             }
         }
@@ -101,8 +97,15 @@ namespace GerenciamentoDeClientes.Dados
             File.WriteAllLines(NomeArquivo, linhas.Where(l => l.Split(Separador)[0] != codigo.ToString()));
         }
 
-        //TODO: Qtd vendas x Data  GERAL
-        //TODO: Qtd vendas x Data  Por cliente
+        private static int BuscaStatus(Venda venda)
+        {
+            int lstatus = 1;  //Pendente
 
+            if (venda.DataPagamento.HasValue)
+                lstatus = 2; //Pago
+            else if (venda.DataVencimento < DateTime.Now && !venda.DataPagamento.HasValue)
+                lstatus = 3; //Vencido
+            return lstatus;
+        }
     }
 }

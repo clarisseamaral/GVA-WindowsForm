@@ -17,7 +17,5 @@ namespace GerenciamentoDeClientes.Dominio
         public string Descricao { get; set; }
 
         public double ValorTotal { get; set; }
-
-        public int Status { get; set; }
     }
 }

@@ -19,5 +19,6 @@ namespace GerenciamentoDeClientes.Dominio
         public string Descricao { get; set; }
 
         public int Status { get; set; }
+
     }
 }

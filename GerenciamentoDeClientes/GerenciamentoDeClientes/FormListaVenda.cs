@@ -64,13 +64,13 @@ namespace GerenciamentoDeClientes
             {
                 var codigo = int.Parse(senderGrid.Rows[e.RowIndex].Cells["Codigo"].Value.ToString());
 
-                if (e.ColumnIndex == 8) //Editar
+                if (e.ColumnIndex == 7) //Editar
                 {
                     var formVenda = new FormVenda(codigo);
                     formVenda.StartPosition = FormStartPosition.Manual;
                     formVenda.ShowDialog(this);
                 }
-                else if (e.ColumnIndex == 9) //Apagar
+                else if (e.ColumnIndex == 8) //Apagar
                 {
                     var message = MessageBox.Show(Properties.Resources.ConfirmarApagar, "", MessageBoxButtons.YesNo);
                     if (message == DialogResult.Yes)
@@ -103,18 +103,33 @@ namespace GerenciamentoDeClientes
 
             if (vendas.Count > 0)
             {
+                int i = 0;
                 foreach (var item in vendas)
                 {
+                    var ldataPagamento = item.DataPagamento.HasValue ? item.DataPagamento.Value.ToString("dd/MM/yyy") : string.Empty;
                     var lstatus = "Pendente";
 
-                    if (item.Status == 2)
-                        lstatus = "Pago";
-                    else if(item.Status == 3)
+                    if (item.DataVencimento < DateTime.Now && !item.DataPagamento.HasValue)
                         lstatus = "Vencido";
+                    else if (item.DataPagamento.HasValue)
+                        lstatus = "Pago";
 
-                    var ldataPagamento = item.DataPagamento.HasValue ? item.DataPagamento.Value.ToString("dd/MM/yyy") : string.Empty;
-                    
-                    gvVendas.Rows.Add(item.Cliente.Nome, item.DataVenda.ToString("dd/MM/yyy"), item.DataVencimento.ToString("dd/MM/yyy"), ldataPagamento, item.ValorTotal.ToString("C2"), item.Descricao, lstatus, item.Codigo);
+                    gvVendas.Rows.Add(item.Cliente.Nome, item.DataVenda.ToString("dd/MM/yyy"), item.DataVencimento.ToString("dd/MM/yyy"), ldataPagamento, item.ValorTotal.ToString("C2"), item.Descricao, item.Codigo);
+
+                    switch (lstatus)
+                    {
+                        case "Pendente":
+                            gvVendas.Rows[i].DefaultCellStyle.ForeColor = Color.DarkOrange;
+                            break;
+                        case "Vencido":
+                            gvVendas.Rows[i].DefaultCellStyle.ForeColor = Color.Red;
+                            break;
+                        case "Pago":
+                            gvVendas.Rows[i].DefaultCellStyle.ForeColor = Color.Green;
+                            break;
+                    }
+
+                    i++;
 
                 }
 

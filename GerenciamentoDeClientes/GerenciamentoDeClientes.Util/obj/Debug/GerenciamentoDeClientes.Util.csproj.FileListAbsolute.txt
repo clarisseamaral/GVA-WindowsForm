@@ -12,3 +12,9 @@ C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClien
 C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\obj\Debug\GerenciamentoDeClientes.Util.csprojResolveAssemblyReference.cache
 C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\obj\Debug\GerenciamentoDeClientes.Util.dll
 C:\Users\Clarisse\Dropbox\PUC\Interação humano-computador\GerenciamentoDeClientesv1.5\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\obj\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\obj\Debug\GerenciamentoDeClientes.Util.csprojResolveAssemblyReference.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\obj\Debug\GerenciamentoDeClientes.Util.csproj.CoreCompileInputs.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\obj\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Util\obj\Debug\GerenciamentoDeClientes.Util.pdb

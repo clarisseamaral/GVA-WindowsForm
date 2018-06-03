@@ -33,3 +33,13 @@ C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClie
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.csprojResolveAssemblyReference.cache
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.dll
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Negocio\obj\Debug\GerenciamentoDeClientes.Negocio.pdb

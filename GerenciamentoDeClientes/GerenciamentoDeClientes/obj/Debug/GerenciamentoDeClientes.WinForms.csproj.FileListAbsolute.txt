@@ -258,3 +258,26 @@ C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClie
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe.config
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.exe
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Negocio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Util.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\bin\Debug\GerenciamentoDeClientes.Dados.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csprojResolveAssemblyReference.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormCliente.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormGrafico.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaCliente.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormListaVenda.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.FormVenda.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Home.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.Properties.Resources.resources
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.GenerateResource.Cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.exe
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes\obj\Debug\GerenciamentoDeClientes.pdb

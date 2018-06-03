@@ -143,5 +143,15 @@ namespace GerenciamentoDeClientes
         {
             GerarGraficos();
         }
+
+        private void gfcClientes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gfcClientesGeramValor_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

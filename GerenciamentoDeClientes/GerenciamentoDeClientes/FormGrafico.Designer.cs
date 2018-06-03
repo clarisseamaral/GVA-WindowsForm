@@ -57,7 +57,7 @@
             // 
             chartArea1.Name = "VendasPorMes";
             this.graficoVendasPorMes.ChartAreas.Add(chartArea1);
-            this.graficoVendasPorMes.Location = new System.Drawing.Point(51, 79);
+            this.graficoVendasPorMes.Location = new System.Drawing.Point(71, 79);
             this.graficoVendasPorMes.Name = "graficoVendasPorMes";
             this.graficoVendasPorMes.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
             series1.ChartArea = "VendasPorMes";
@@ -67,7 +67,7 @@
             series1.XValueMember = "Mes";
             series1.YValueMembers = "Qtd";
             this.graficoVendasPorMes.Series.Add(series1);
-            this.graficoVendasPorMes.Size = new System.Drawing.Size(283, 137);
+            this.graficoVendasPorMes.Size = new System.Drawing.Size(273, 137);
             this.graficoVendasPorMes.TabIndex = 0;
             this.graficoVendasPorMes.Text = "chart1";
             // 
@@ -75,7 +75,7 @@
             // 
             chartArea2.Name = "ValorVendidoPorMes";
             this.gfcValorVendidoMes.ChartAreas.Add(chartArea2);
-            this.gfcValorVendidoMes.Location = new System.Drawing.Point(51, 231);
+            this.gfcValorVendidoMes.Location = new System.Drawing.Point(71, 231);
             this.gfcValorVendidoMes.Name = "gfcValorVendidoMes";
             this.gfcValorVendidoMes.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
             series2.ChartArea = "ValorVendidoPorMes";
@@ -85,7 +85,7 @@
             series2.XValueMember = "Mes";
             series2.YValueMembers = "Valor";
             this.gfcValorVendidoMes.Series.Add(series2);
-            this.gfcValorVendidoMes.Size = new System.Drawing.Size(283, 137);
+            this.gfcValorVendidoMes.Size = new System.Drawing.Size(273, 137);
             this.gfcValorVendidoMes.TabIndex = 1;
             this.gfcValorVendidoMes.Text = "chart1";
             // 
@@ -95,7 +95,7 @@
             this.gfcClientes.ChartAreas.Add(chartArea3);
             legend1.Name = "Legend1";
             this.gfcClientes.Legends.Add(legend1);
-            this.gfcClientes.Location = new System.Drawing.Point(433, 79);
+            this.gfcClientes.Location = new System.Drawing.Point(452, 79);
             this.gfcClientes.Name = "gfcClientes";
             this.gfcClientes.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
             series3.ChartArea = "TopClientes";
@@ -105,9 +105,10 @@
             series3.XValueMember = "Cliente";
             series3.YValueMembers = "Cliente";
             this.gfcClientes.Series.Add(series3);
-            this.gfcClientes.Size = new System.Drawing.Size(301, 137);
+            this.gfcClientes.Size = new System.Drawing.Size(273, 137);
             this.gfcClientes.TabIndex = 2;
             this.gfcClientes.Text = "chart1";
+            this.gfcClientes.Click += new System.EventHandler(this.gfcClientes_Click);
             // 
             // gfcClientesGeramValor
             // 
@@ -115,7 +116,7 @@
             this.gfcClientesGeramValor.ChartAreas.Add(chartArea4);
             legend2.Name = "Legend1";
             this.gfcClientesGeramValor.Legends.Add(legend2);
-            this.gfcClientesGeramValor.Location = new System.Drawing.Point(433, 231);
+            this.gfcClientesGeramValor.Location = new System.Drawing.Point(452, 231);
             this.gfcClientesGeramValor.Name = "gfcClientesGeramValor";
             this.gfcClientesGeramValor.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
             series4.ChartArea = "TopClientes";
@@ -125,14 +126,15 @@
             series4.XValueMember = "Cliente";
             series4.YValueMembers = "Cliente";
             this.gfcClientesGeramValor.Series.Add(series4);
-            this.gfcClientesGeramValor.Size = new System.Drawing.Size(301, 137);
+            this.gfcClientesGeramValor.Size = new System.Drawing.Size(273, 137);
             this.gfcClientesGeramValor.TabIndex = 3;
             this.gfcClientesGeramValor.Text = "chart1";
+            this.gfcClientesGeramValor.Click += new System.EventHandler(this.gfcClientesGeramValor_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(189, 47);
+            this.label5.Location = new System.Drawing.Point(267, 50);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 34;
@@ -140,7 +142,7 @@
             // 
             // txtDataFinal
             // 
-            this.txtDataFinal.Location = new System.Drawing.Point(208, 40);
+            this.txtDataFinal.Location = new System.Drawing.Point(286, 43);
             this.txtDataFinal.Mask = "00/00/0000";
             this.txtDataFinal.Name = "txtDataFinal";
             this.txtDataFinal.Size = new System.Drawing.Size(100, 20);
@@ -149,7 +151,7 @@
             // 
             // txtDataInicial
             // 
-            this.txtDataInicial.Location = new System.Drawing.Point(79, 40);
+            this.txtDataInicial.Location = new System.Drawing.Point(157, 43);
             this.txtDataInicial.Mask = "00/00/0000";
             this.txtDataInicial.Name = "txtDataInicial";
             this.txtDataInicial.Size = new System.Drawing.Size(100, 20);
@@ -159,7 +161,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 43);
+            this.label4.Location = new System.Drawing.Point(103, 50);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 31;
@@ -169,7 +171,7 @@
             // 
             this.btnPesquisar.BackgroundImage = global::GerenciamentoDeClientes.Properties.Resources.search;
             this.btnPesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnPesquisar.Location = new System.Drawing.Point(348, 38);
+            this.btnPesquisar.Location = new System.Drawing.Point(615, 43);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(80, 23);
             this.btnPesquisar.TabIndex = 30;

@@ -17,3 +17,9 @@ C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClie
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\obj\Debug\GerenciamentoDeClientes.Dominio.csprojResolveAssemblyReference.cache
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\obj\Debug\GerenciamentoDeClientes.Dominio.dll
 C:\Users\clarisse.heleno\Desktop\GVA\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\obj\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\bin\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\bin\Debug\GerenciamentoDeClientes.Dominio.pdb
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\obj\Debug\GerenciamentoDeClientes.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\obj\Debug\GerenciamentoDeClientes.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\obj\Debug\GerenciamentoDeClientes.Dominio.dll
+C:\Users\thali\OneDrive\Área de Trabalho\GerenciamentoDeClientes\GerenciamentoDeClientes\GerenciamentoDeClientes.Dominio\obj\Debug\GerenciamentoDeClientes.Dominio.pdb

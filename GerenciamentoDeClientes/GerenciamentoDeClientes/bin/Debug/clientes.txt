@@ -1,9 +1,0 @@
-2|Thalita Sylvia Marques||thalita.sylvia@gmailcom||F|||||0||
-5|Juliana Ester Heloisa da Paz|(16) 98874-3568||03/03/1990 00:00:00|F|||||0||
-6|Gael Julio Almeida|||03/11/1990 00:00:00|M|||||0||
-7|Marcelo Renato Fernandes|||21/03/1992 00:00:00|M|||||0||
-8|Nicole Beatriz Francisca Castro|(92) 25254-483||01/01/1992 00:00:00|F|||||0||
-9|Luiz Felipe||||M|||||0||
-1|Clarisse Matos|(31) 99473-7220|clarisse.heleno@bhs.com.br|01/05/1997 00:00:00|F|32115060|Contagem|Aipim|Novo Progresso|1111|MG|Teste
-4|Amanda Camila Emilly Bernardes|(19) 36249-870|amanda@gmail.com|16/01/1994 00:00:00|F|||||0||
-3|Bryan Kaique Diego da Mata|(84) 25379-304||10/05/1996 00:00:00|M|59086450|Natal|Rua Miradouro|Neópolis|731|RN|

@@ -10,41 +10,54 @@ namespace GerenciamentoDeClientes.Negocio
 {
     public class CadastroCliente
     {
-        public static void CadastraCliente(Cliente cliente)
+        private readonly RepositorioCliente _repositorioCliente;
+        private readonly RepositorioVenda _repositorioVenda;
+
+        public CadastroCliente(): this(new RepositorioCliente(), new RepositorioVenda())
         {
-            new RepositorioCliente().Cria(cliente);
         }
 
-        public static IEnumerable<Cliente> BuscaClientePorNome(string nome)
+        public CadastroCliente(RepositorioCliente repositorioCliente, RepositorioVenda repositorioVenda)
         {
-            return new RepositorioCliente().BuscaPorNome(nome);
+            _repositorioCliente = repositorioCliente;
+            _repositorioVenda = repositorioVenda;
         }
 
-        public static IEnumerable<Cliente> BuscaTodosClientes()
+        public void CadastraCliente(Cliente cliente)
         {
-            return new RepositorioCliente().BuscaTodos();
+            _repositorioCliente.Cria(cliente);
         }
 
-        public static bool ApagaCliente(int codigo)
+        public IEnumerable<Cliente> BuscaClientePorNome(string nome)
         {
-            var lvendas = new RepositorioVenda().BuscaVendasPorCliente(codigo);
+            return _repositorioCliente.BuscaPorNome(nome);
+        }
+
+        public IEnumerable<Cliente> BuscaTodosClientes()
+        {
+            return _repositorioCliente.BuscaTodos();
+        }
+
+        public bool ApagaCliente(int codigo)
+        {
+            var lvendas = _repositorioVenda.BuscaVendasPorCliente(codigo);
 
             if (lvendas.Count() > 0)
                 return false;
 
-            new RepositorioCliente().ApagaCliente(codigo);
+            _repositorioCliente.ApagaCliente(codigo);
             return true;
         }
 
-        public static Cliente BuscaClientePorCodigo(int codigo)
+        public Cliente BuscaClientePorCodigo(int codigo)
         {
-            return new RepositorioCliente().BuscaPorCodigo(codigo);
+            return _repositorioCliente.BuscaPorCodigo(codigo);
         }
 
-        public static void AtualizaCliente (Cliente cliente)
+        public void AtualizaCliente (Cliente cliente)
         {
-            new RepositorioCliente().ApagaCliente(cliente.Codigo);
-            new RepositorioCliente().Cria(cliente);
+            _repositorioCliente.ApagaCliente(cliente.Codigo);
+            _repositorioCliente.Cria(cliente);
         }
     }
 }

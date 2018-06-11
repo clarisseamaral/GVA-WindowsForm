@@ -36,7 +36,7 @@ namespace GerenciamentoDeClientes
             {
                 gvPessoas.Rows.Clear();
 
-                var clientes = CadastroCliente.BuscaClientePorNome(txtNome.Text).ToList();
+                var clientes = new CadastroCliente().BuscaClientePorNome(txtNome.Text).ToList();
 
                 if (clientes.Count > 0)
                     PreencheGrid(clientes);
@@ -64,12 +64,12 @@ namespace GerenciamentoDeClientes
                     formCliente.StartPosition = FormStartPosition.Manual;
                     formCliente.ShowDialog(this);
                 }
-                else if (e.ColumnIndex == 7) //Apagar
+                else if (e.ColumnIndex == 7) //Ação de apagar
                 {
                     var message = MessageBox.Show(Properties.Resources.ConfirmarApagar, "", MessageBoxButtons.YesNo);
                     if (message == DialogResult.Yes)
                     {
-                        var apagado = CadastroCliente.ApagaCliente(codigo);
+                        var apagado = new CadastroCliente().ApagaCliente(codigo);
                         if (apagado)
                         {
                             MessageBox.Show(Properties.Resources.DadoApagadoSucesso);
@@ -97,7 +97,7 @@ namespace GerenciamentoDeClientes
         {
             try
             {
-                var clientes = CadastroCliente.BuscaTodosClientes().ToList();
+                var clientes = new CadastroCliente().BuscaTodosClientes().ToList();
 
                 PreencheGrid(clientes);
             }

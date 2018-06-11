@@ -19,7 +19,7 @@ namespace GerenciamentoDeClientes
             Editar = editar;
             InitializeComponent();
 
-            var ldadosCliente = CadastroCliente.BuscaClientePorCodigo(codigo);
+            var ldadosCliente = new CadastroCliente().BuscaClientePorCodigo(codigo);
             PrencherCampos(ldadosCliente);
 
             if (!Editar)
@@ -197,14 +197,15 @@ namespace GerenciamentoDeClientes
                         cliente.Rua = txtRua.Text;
                         cliente.Observacoes = txtObservacoes.Text;
 
+                        var cadastroCliente = new CadastroCliente();
                         if (CodigoCliente > 0)
                         {
-                            CadastroCliente.AtualizaCliente(cliente);
+                            cadastroCliente.AtualizaCliente(cliente);
                             FecharTela(Properties.Resources.DadosAlteradosSucesso);
                         }
                         else
                         {
-                            CadastroCliente.CadastraCliente(cliente);
+                            cadastroCliente.CadastraCliente(cliente);
 
                             FecharTela(Properties.Resources.DadosInseridosSucesso);
                         }

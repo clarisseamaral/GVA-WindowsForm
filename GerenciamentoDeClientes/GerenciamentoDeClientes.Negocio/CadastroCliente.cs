@@ -1,4 +1,5 @@
 ﻿using GerenciamentoDeClientes.Dados;
+using GerenciamentoDeClientes.Dados.Contratos;
 using GerenciamentoDeClientes.Dominio;
 using System;
 using System.Collections.Generic;
@@ -10,14 +11,14 @@ namespace GerenciamentoDeClientes.Negocio
 {
     public class CadastroCliente
     {
-        private readonly RepositorioCliente _repositorioCliente;
-        private readonly RepositorioVenda _repositorioVenda;
+        private readonly IRepositorioCliente _repositorioCliente;
+        private readonly IRepositorioVenda _repositorioVenda;
 
         public CadastroCliente(): this(new RepositorioCliente(), new RepositorioVenda())
         {
         }
 
-        public CadastroCliente(RepositorioCliente repositorioCliente, RepositorioVenda repositorioVenda)
+        public CadastroCliente(IRepositorioCliente repositorioCliente, IRepositorioVenda repositorioVenda)
         {
             _repositorioCliente = repositorioCliente;
             _repositorioVenda = repositorioVenda;

@@ -35,6 +35,15 @@ namespace GerenciamentoDeClientes
             this.lblNotificacao = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
             this.gvVendas = new System.Windows.Forms.DataGridView();
+            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Vencimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pagamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Editar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.Apagar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.cbCliente = new System.Windows.Forms.ComboBox();
@@ -48,15 +57,6 @@ namespace GerenciamentoDeClientes
             this.label2 = new System.Windows.Forms.Label();
             this.Pago = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Vencimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Pagamento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Editar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.Apagar = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gvVendas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +64,7 @@ namespace GerenciamentoDeClientes
             // 
             this.lblNotificacao.AutoSize = true;
             this.lblNotificacao.ForeColor = System.Drawing.Color.Red;
-            this.lblNotificacao.Location = new System.Drawing.Point(40, 379);
+            this.lblNotificacao.Location = new System.Drawing.Point(42, 22);
             this.lblNotificacao.Name = "lblNotificacao";
             this.lblNotificacao.Size = new System.Drawing.Size(0, 13);
             this.lblNotificacao.TabIndex = 19;
@@ -101,6 +101,73 @@ namespace GerenciamentoDeClientes
             this.gvVendas.TabIndex = 17;
             this.gvVendas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvVendas_CellContentClick);
             this.gvVendas.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.gvVendas_CellPainting);
+            // 
+            // Nome
+            // 
+            this.Nome.HeaderText = "Cliente";
+            this.Nome.Name = "Nome";
+            this.Nome.ReadOnly = true;
+            this.Nome.Width = 164;
+            // 
+            // Telefone
+            // 
+            this.Telefone.HeaderText = "Data da venda";
+            this.Telefone.Name = "Telefone";
+            this.Telefone.ReadOnly = true;
+            this.Telefone.Width = 70;
+            // 
+            // Vencimento
+            // 
+            this.Vencimento.HeaderText = "Data do vencimento";
+            this.Vencimento.Name = "Vencimento";
+            this.Vencimento.ReadOnly = true;
+            this.Vencimento.Width = 70;
+            // 
+            // Pagamento
+            // 
+            this.Pagamento.HeaderText = "Data do pagamento";
+            this.Pagamento.Name = "Pagamento";
+            this.Pagamento.ReadOnly = true;
+            this.Pagamento.Width = 70;
+            // 
+            // Valor
+            // 
+            this.Valor.HeaderText = "Valor";
+            this.Valor.Name = "Valor";
+            this.Valor.ReadOnly = true;
+            this.Valor.Width = 74;
+            // 
+            // Email
+            // 
+            this.Email.HeaderText = "Descrição do produto";
+            this.Email.Name = "Email";
+            this.Email.ReadOnly = true;
+            this.Email.Width = 160;
+            // 
+            // Codigo
+            // 
+            this.Codigo.DataPropertyName = "Codigo";
+            this.Codigo.HeaderText = "";
+            this.Codigo.Name = "Codigo";
+            this.Codigo.ReadOnly = true;
+            this.Codigo.Visible = false;
+            // 
+            // Editar
+            // 
+            this.Editar.HeaderText = "";
+            this.Editar.Name = "Editar";
+            this.Editar.ReadOnly = true;
+            this.Editar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Editar.ToolTipText = "Editar";
+            this.Editar.Width = 20;
+            // 
+            // Apagar
+            // 
+            this.Apagar.HeaderText = "";
+            this.Apagar.Name = "Apagar";
+            this.Apagar.ReadOnly = true;
+            this.Apagar.ToolTipText = "Apagar";
+            this.Apagar.Width = 20;
             // 
             // btnCadastrar
             // 
@@ -232,73 +299,6 @@ namespace GerenciamentoDeClientes
             this.label1.TabIndex = 31;
             this.label1.Text = "Legenda:";
             // 
-            // Nome
-            // 
-            this.Nome.HeaderText = "Cliente";
-            this.Nome.Name = "Nome";
-            this.Nome.ReadOnly = true;
-            this.Nome.Width = 164;
-            // 
-            // Telefone
-            // 
-            this.Telefone.HeaderText = "Data da venda";
-            this.Telefone.Name = "Telefone";
-            this.Telefone.ReadOnly = true;
-            this.Telefone.Width = 70;
-            // 
-            // Vencimento
-            // 
-            this.Vencimento.HeaderText = "Data do vencimento";
-            this.Vencimento.Name = "Vencimento";
-            this.Vencimento.ReadOnly = true;
-            this.Vencimento.Width = 70;
-            // 
-            // Pagamento
-            // 
-            this.Pagamento.HeaderText = "Data do pagamento";
-            this.Pagamento.Name = "Pagamento";
-            this.Pagamento.ReadOnly = true;
-            this.Pagamento.Width = 70;
-            // 
-            // Valor
-            // 
-            this.Valor.HeaderText = "Valor";
-            this.Valor.Name = "Valor";
-            this.Valor.ReadOnly = true;
-            this.Valor.Width = 74;
-            // 
-            // Email
-            // 
-            this.Email.HeaderText = "Descrição do produto";
-            this.Email.Name = "Email";
-            this.Email.ReadOnly = true;
-            this.Email.Width = 160;
-            // 
-            // Codigo
-            // 
-            this.Codigo.DataPropertyName = "Codigo";
-            this.Codigo.HeaderText = "";
-            this.Codigo.Name = "Codigo";
-            this.Codigo.ReadOnly = true;
-            this.Codigo.Visible = false;
-            // 
-            // Editar
-            // 
-            this.Editar.HeaderText = "";
-            this.Editar.Name = "Editar";
-            this.Editar.ReadOnly = true;
-            this.Editar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Editar.ToolTipText = "Editar";
-            this.Editar.Width = 20;
-            // 
-            // Apagar
-            // 
-            this.Apagar.HeaderText = "";
-            this.Apagar.Name = "Apagar";
-            this.Apagar.ReadOnly = true;
-            this.Apagar.ToolTipText = "Apagar";
-            this.Apagar.Width = 20;
-            // 
             // FormListaVenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -329,6 +329,7 @@ namespace GerenciamentoDeClientes
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormListaVenda_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.gvVendas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

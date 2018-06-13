@@ -1,5 +1,6 @@
 ﻿using GerenciamentoDeClientes.Dominio;
 using GerenciamentoDeClientes.Negocio;
+using GerenciamentoDeClientes.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,11 @@ namespace GerenciamentoDeClientes
 {
     public partial class FormGrafico : Form
     {
+        private bool dataInicial = false;
+
+        private bool dataFinal = false;
+
+
         public FormGrafico()
         {
             InitializeComponent();
@@ -25,27 +31,65 @@ namespace GerenciamentoDeClientes
         {
         }
 
+        private void Form_Paint(object sender, PaintEventArgs e)
+        {
+            if (dataInicial)
+                Util.ValidacaoCampo.AlteraBordaControl(txtDataInicial, e);
+
+            if (dataFinal)
+                Util.ValidacaoCampo.AlteraBordaControl(txtDataFinal, e);
+        }
+
         private void GerarGraficos()
         {
-            DateTime dataInicial, dataFinal;
-            DateTime.TryParse(txtDataInicial.Text.Replace("_", ""), out dataInicial);
-            DateTime.TryParse(txtDataFinal.Text.Replace("_", ""), out dataFinal);
-
-            var filtro = new FiltroTelaVendas()
+            try
             {
-                DataInicial = dataInicial == DateTime.MinValue ? null : (DateTime?)dataInicial,
-                DataFinal = dataFinal == DateTime.MinValue ? null : (DateTime?)dataFinal,
-            };
+                lblNotificacao.Text = string.Empty;
+                dataInicial = false;
+                dataFinal = false;
 
-            var vendas = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
+                var filtro = new FiltroTelaVendas()
+                {
+                    DataInicial = String.IsNullOrWhiteSpace(txtDataInicial.Text.Replace("_", "").Replace("/", "")) ? (DateTime?)null : DateTime.Parse(txtDataInicial.Text),
+                    DataFinal = String.IsNullOrWhiteSpace(txtDataFinal.Text.Replace("_", "").Replace("/", "")) ? (DateTime?)null : DateTime.Parse(txtDataFinal.Text),
+                };
 
-            var dt = BuscarDtGraficoVendas(vendas);
-            var dtClientes = BuscarClientes(vendas);
+                if (filtro.DataFinal.HasValue && filtro.DataInicial.HasValue && filtro.DataFinal.Value < filtro.DataInicial.Value)
+                    lblNotificacao.Text = "A data inicial deve ser menor que a data final.";
+                else
+                {
+                    var vendas = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
 
-            GraficoSpline(graficoVendasPorMes, dt, "Quantidade de Vendas por mês", "Mes", "Qtd");
-            GraficoSpline(gfcValorVendidoMes, dt, "Valores vendidos por mês", "Mes", "Valor");
-            GraficoClientesQueMaisCompram(dtClientes.OrderByDescending(c => c.QuantidadeCompras).Take(5).ToList());
-            GraficoClientesQueMaisGerarValor(dtClientes.OrderByDescending(c => c.ValorComprado).Take(5).ToList());
+                    var dt = BuscarDtGraficoVendas(vendas);
+                    var dtClientes = BuscarClientes(vendas);
+
+                    GraficoSpline(graficoVendasPorMes, dt, "Quantidade de Vendas por mês", "Mes", "Qtd");
+                    GraficoSpline(gfcValorVendidoMes, dt, "Valores vendidos por mês", "Mes", "Valor");
+                    GraficoClientesQueMaisCompram(dtClientes.OrderByDescending(c => c.QuantidadeCompras).Take(5).ToList());
+                    GraficoClientesQueMaisGerarValor(dtClientes.OrderByDescending(c => c.ValorComprado).Take(5).ToList());
+                }
+            }
+            catch (FormatException ex)
+            {
+                if (ex.Message.Contains("DateTime"))
+                {
+                    lblNotificacao.Text = Resources.DataInvalida;
+
+                    if (!String.IsNullOrWhiteSpace(txtDataInicial.Text.Replace("_", "").Replace("/", "")) && DataInvalida(txtDataInicial.Text.Replace("_", "")))
+                        dataInicial = true;
+
+                    if (!String.IsNullOrWhiteSpace(txtDataFinal.Text.Replace("_", "").Replace("/", "")) && DataInvalida(txtDataFinal.Text.Replace("_", "")))
+                        dataFinal = true;
+                }
+            
+            }
+            catch (Exception ex)
+            {
+                lblNotificacao.Text = ex.Message;
+            }
+
+            this.Refresh();
+
         }
 
         private DataTable BuscarDtGraficoVendas(List<Venda> vendas)
@@ -156,6 +200,14 @@ namespace GerenciamentoDeClientes
         private void gfcClientesGeramValor_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private bool DataInvalida(string adata)
+        {
+            DateTime ldata;
+            DateTime.TryParse(adata, out ldata);
+
+            return ldata == DateTime.MinValue;
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using GerenciamentoDeClientes.Dominio;
 using GerenciamentoDeClientes.Negocio;
+using GerenciamentoDeClientes.Properties;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,6 +13,10 @@ namespace GerenciamentoDeClientes
 {
     public partial class FormListaVenda : Form
     {
+        bool dataInicial = false;
+
+        bool dataFinal = false;
+
         public FormListaVenda()
         {
             InitializeComponent();
@@ -26,11 +31,31 @@ namespace GerenciamentoDeClientes
             formVenda.StartPosition = FormStartPosition.Manual;
             formVenda.ShowDialog(this);
         }
+        private bool DataInvalida(string adata)
+        {
+            DateTime ldata;
+            DateTime.TryParse(adata, out ldata);
+
+            return ldata == DateTime.MinValue;
+        }
+
+        private void Form_Paint(object sender, PaintEventArgs e)
+        {
+            if (dataInicial)
+                Util.ValidacaoCampo.AlteraBordaControl(txtDataInicial, e);
+
+            if (dataFinal)
+                Util.ValidacaoCampo.AlteraBordaControl(txtDataFinal, e);
+        }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
             try
             {
+                dataInicial = false;
+                dataFinal = false;
+                lblNotificacao.Text = string.Empty;
+
                 var filtro = new FiltroTelaVendas()
                 {
                     CodigoCliente = cbCliente.SelectedValue == null ? 0 : int.Parse(cbCliente.SelectedValue.ToString()),
@@ -39,15 +64,36 @@ namespace GerenciamentoDeClientes
                     Status = cbStatus.SelectedValue == null ? 0 : int.Parse(cbStatus.SelectedValue.ToString())
                 };
 
-                var lvenda = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
+                if (filtro.DataFinal.HasValue && filtro.DataInicial.HasValue && filtro.DataFinal.Value < filtro.DataInicial.Value)
+                    lblNotificacao.Text = "A data inicial deve ser menor que a data final.";
+                else
+                {
+                    var lvenda = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
 
-                PreencheGrid(lvenda);
+                    PreencheGrid(lvenda);
+                }
 
+            }
+            catch (FormatException ex)
+            {
+                if (ex.Message.Contains("DateTime"))
+                {
+                    lblNotificacao.Text = Resources.DataInvalida;
+
+                    if (!String.IsNullOrWhiteSpace(txtDataInicial.Text.Replace("_", "").Replace("/", "")) && DataInvalida(txtDataInicial.Text.Replace("_", "")))
+                        dataInicial = true;
+
+                    if (!String.IsNullOrWhiteSpace(txtDataFinal.Text.Replace("_", "").Replace("/", "")) && DataInvalida(txtDataFinal.Text.Replace("_", "")))
+                        dataFinal = true;
+                }
             }
             catch (Exception ex)
             {
                 lblNotificacao.Text = ex.Message;
             }
+
+            this.Refresh();
+
         }
 
         private void FormListaVenda_Load(object sender, EventArgs e)

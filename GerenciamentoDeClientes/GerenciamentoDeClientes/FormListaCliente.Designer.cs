@@ -32,11 +32,6 @@ namespace GerenciamentoDeClientes
         private void InitializeComponent()
         {
             this.gvPessoas = new System.Windows.Forms.DataGridView();
-            this.btnPesquisar = new System.Windows.Forms.Button();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.lblNotificacao = new System.Windows.Forms.Label();
-            this.btnCadastrar = new System.Windows.Forms.Button();
             this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,6 +40,11 @@ namespace GerenciamentoDeClientes
             this.Visualizar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Editar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Apagar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.lblNotificacao = new System.Windows.Forms.Label();
+            this.btnCadastrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvPessoas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,61 +61,12 @@ namespace GerenciamentoDeClientes
             this.Visualizar,
             this.Editar,
             this.Apagar});
-            this.gvPessoas.Location = new System.Drawing.Point(40, 94);
+            this.gvPessoas.Location = new System.Drawing.Point(29, 101);
             this.gvPessoas.Name = "gvPessoas";
-            this.gvPessoas.Size = new System.Drawing.Size(698, 210);
+            this.gvPessoas.Size = new System.Drawing.Size(706, 272);
             this.gvPessoas.TabIndex = 3;
             this.gvPessoas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvPessoas_CellContentClick);
             this.gvPessoas.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.gvPessoas_CellPainting);
-            // 
-            // btnPesquisar
-            // 
-            this.btnPesquisar.BackgroundImage = global::GerenciamentoDeClientes.Properties.Resources.search;
-            this.btnPesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnPesquisar.Location = new System.Drawing.Point(615, 43);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(80, 23);
-            this.btnPesquisar.TabIndex = 2;
-            this.btnPesquisar.Text = "     Pesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = true;
-            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
-            // 
-            // txtNome
-            // 
-            this.txtNome.Location = new System.Drawing.Point(129, 43);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(186, 20);
-            this.txtNome.TabIndex = 0;
-            // 
-            // lblNome
-            // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(70, 46);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(42, 13);
-            this.lblNome.TabIndex = 12;
-            this.lblNome.Text = "Cliente:";
-            // 
-            // lblNotificacao
-            // 
-            this.lblNotificacao.AutoSize = true;
-            this.lblNotificacao.ForeColor = System.Drawing.Color.Red;
-            this.lblNotificacao.Location = new System.Drawing.Point(26, 9);
-            this.lblNotificacao.Name = "lblNotificacao";
-            this.lblNotificacao.Size = new System.Drawing.Size(0, 13);
-            this.lblNotificacao.TabIndex = 13;
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.BackgroundImage = global::GerenciamentoDeClientes.Properties.Resources.plus;
-            this.btnCadastrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnCadastrar.Location = new System.Drawing.Point(511, 43);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(80, 23);
-            this.btnCadastrar.TabIndex = 1;
-            this.btnCadastrar.Text = "     Novo";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // Nome
             // 
@@ -169,11 +120,60 @@ namespace GerenciamentoDeClientes
             this.Apagar.ToolTipText = "Apagar";
             this.Apagar.Width = 20;
             // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.BackgroundImage = global::GerenciamentoDeClientes.Properties.Resources.search;
+            this.btnPesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnPesquisar.Location = new System.Drawing.Point(409, 47);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(80, 23);
+            this.btnPesquisar.TabIndex = 2;
+            this.btnPesquisar.Text = "     Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
+            // 
+            // txtNome
+            // 
+            this.txtNome.Location = new System.Drawing.Point(189, 49);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(186, 20);
+            this.txtNome.TabIndex = 0;
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(130, 52);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(42, 13);
+            this.lblNome.TabIndex = 12;
+            this.lblNome.Text = "Cliente:";
+            // 
+            // lblNotificacao
+            // 
+            this.lblNotificacao.AutoSize = true;
+            this.lblNotificacao.ForeColor = System.Drawing.Color.Red;
+            this.lblNotificacao.Location = new System.Drawing.Point(26, 9);
+            this.lblNotificacao.Name = "lblNotificacao";
+            this.lblNotificacao.Size = new System.Drawing.Size(0, 13);
+            this.lblNotificacao.TabIndex = 13;
+            // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.BackgroundImage = global::GerenciamentoDeClientes.Properties.Resources.plus;
+            this.btnCadastrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnCadastrar.Location = new System.Drawing.Point(513, 49);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(80, 23);
+            this.btnCadastrar.TabIndex = 1;
+            this.btnCadastrar.Text = "     Novo";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            // 
             // FormListaCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(807, 390);
+            this.ClientSize = new System.Drawing.Size(768, 423);
             this.ControlBox = false;
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.lblNotificacao);

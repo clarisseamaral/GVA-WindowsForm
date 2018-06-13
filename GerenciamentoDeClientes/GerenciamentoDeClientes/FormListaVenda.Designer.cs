@@ -64,7 +64,7 @@ namespace GerenciamentoDeClientes
             // 
             this.lblNotificacao.AutoSize = true;
             this.lblNotificacao.ForeColor = System.Drawing.Color.Red;
-            this.lblNotificacao.Location = new System.Drawing.Point(29, 333);
+            this.lblNotificacao.Location = new System.Drawing.Point(40, 379);
             this.lblNotificacao.Name = "lblNotificacao";
             this.lblNotificacao.Size = new System.Drawing.Size(0, 13);
             this.lblNotificacao.TabIndex = 19;
@@ -72,7 +72,7 @@ namespace GerenciamentoDeClientes
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(42, 42);
+            this.lblNome.Location = new System.Drawing.Point(70, 46);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(42, 13);
             this.lblNome.TabIndex = 18;
@@ -94,10 +94,10 @@ namespace GerenciamentoDeClientes
             this.Codigo,
             this.Editar,
             this.Apagar});
-            this.gvVendas.Location = new System.Drawing.Point(43, 103);
+            this.gvVendas.Location = new System.Drawing.Point(29, 121);
             this.gvVendas.Name = "gvVendas";
             this.gvVendas.ReadOnly = true;
-            this.gvVendas.Size = new System.Drawing.Size(710, 210);
+            this.gvVendas.Size = new System.Drawing.Size(710, 240);
             this.gvVendas.TabIndex = 17;
             this.gvVendas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvVendas_CellContentClick);
             this.gvVendas.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.gvVendas_CellPainting);
@@ -106,7 +106,7 @@ namespace GerenciamentoDeClientes
             // 
             this.btnCadastrar.BackgroundImage = global::GerenciamentoDeClientes.Properties.Resources.plus;
             this.btnCadastrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnCadastrar.Location = new System.Drawing.Point(317, 74);
+            this.btnCadastrar.Location = new System.Drawing.Point(595, 75);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(80, 23);
             this.btnCadastrar.TabIndex = 4;
@@ -118,7 +118,7 @@ namespace GerenciamentoDeClientes
             // 
             this.btnPesquisar.BackgroundImage = global::GerenciamentoDeClientes.Properties.Resources.search;
             this.btnPesquisar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnPesquisar.Location = new System.Drawing.Point(421, 74);
+            this.btnPesquisar.Location = new System.Drawing.Point(486, 75);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(80, 23);
             this.btnPesquisar.TabIndex = 5;
@@ -131,7 +131,7 @@ namespace GerenciamentoDeClientes
             this.cbCliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCliente.DropDownWidth = 225;
             this.cbCliente.FormattingEnabled = true;
-            this.cbCliente.Location = new System.Drawing.Point(101, 39);
+            this.cbCliente.Location = new System.Drawing.Point(129, 43);
             this.cbCliente.Name = "cbCliente";
             this.cbCliente.Size = new System.Drawing.Size(186, 21);
             this.cbCliente.TabIndex = 1;
@@ -139,7 +139,7 @@ namespace GerenciamentoDeClientes
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(315, 38);
+            this.label4.Location = new System.Drawing.Point(407, 42);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 13);
             this.label4.TabIndex = 25;
@@ -147,7 +147,7 @@ namespace GerenciamentoDeClientes
             // 
             // txtDataInicial
             // 
-            this.txtDataInicial.Location = new System.Drawing.Point(374, 35);
+            this.txtDataInicial.Location = new System.Drawing.Point(466, 39);
             this.txtDataInicial.Mask = "00/00/0000";
             this.txtDataInicial.Name = "txtDataInicial";
             this.txtDataInicial.Size = new System.Drawing.Size(100, 20);
@@ -156,7 +156,7 @@ namespace GerenciamentoDeClientes
             // 
             // txtDataFinal
             // 
-            this.txtDataFinal.Location = new System.Drawing.Point(503, 35);
+            this.txtDataFinal.Location = new System.Drawing.Point(595, 39);
             this.txtDataFinal.Mask = "00/00/0000";
             this.txtDataFinal.Name = "txtDataFinal";
             this.txtDataFinal.Size = new System.Drawing.Size(100, 20);
@@ -166,7 +166,7 @@ namespace GerenciamentoDeClientes
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(484, 42);
+            this.label5.Location = new System.Drawing.Point(576, 46);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(13, 13);
             this.label5.TabIndex = 28;
@@ -177,7 +177,7 @@ namespace GerenciamentoDeClientes
             this.cbStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbStatus.DropDownWidth = 225;
             this.cbStatus.FormattingEnabled = true;
-            this.cbStatus.Location = new System.Drawing.Point(101, 74);
+            this.cbStatus.Location = new System.Drawing.Point(129, 82);
             this.cbStatus.Name = "cbStatus";
             this.cbStatus.Size = new System.Drawing.Size(186, 21);
             this.cbStatus.TabIndex = 29;
@@ -185,7 +185,7 @@ namespace GerenciamentoDeClientes
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(42, 77);
+            this.lblStatus.Location = new System.Drawing.Point(70, 85);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(37, 13);
             this.lblStatus.TabIndex = 30;
@@ -195,7 +195,7 @@ namespace GerenciamentoDeClientes
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Green;
-            this.label3.Location = new System.Drawing.Point(722, 316);
+            this.label3.Location = new System.Drawing.Point(707, 364);
             this.label3.Margin = new System.Windows.Forms.Padding(0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 13);
@@ -206,7 +206,7 @@ namespace GerenciamentoDeClientes
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(673, 316);
+            this.label2.Location = new System.Drawing.Point(658, 364);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 33;
@@ -216,7 +216,7 @@ namespace GerenciamentoDeClientes
             // 
             this.Pago.AutoSize = true;
             this.Pago.ForeColor = System.Drawing.Color.DarkOrange;
-            this.Pago.Location = new System.Drawing.Point(617, 316);
+            this.Pago.Location = new System.Drawing.Point(602, 364);
             this.Pago.Margin = new System.Windows.Forms.Padding(0);
             this.Pago.Name = "Pago";
             this.Pago.Size = new System.Drawing.Size(53, 13);
@@ -226,7 +226,7 @@ namespace GerenciamentoDeClientes
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(562, 316);
+            this.label1.Location = new System.Drawing.Point(547, 364);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 31;
@@ -237,7 +237,7 @@ namespace GerenciamentoDeClientes
             this.Nome.HeaderText = "Cliente";
             this.Nome.Name = "Nome";
             this.Nome.ReadOnly = true;
-            this.Nome.Width = 154;
+            this.Nome.Width = 164;
             // 
             // Telefone
             // 
@@ -265,14 +265,14 @@ namespace GerenciamentoDeClientes
             this.Valor.HeaderText = "Valor";
             this.Valor.Name = "Valor";
             this.Valor.ReadOnly = true;
-            this.Valor.Width = 64;
+            this.Valor.Width = 74;
             // 
             // Email
             // 
             this.Email.HeaderText = "Descrição do produto";
             this.Email.Name = "Email";
             this.Email.ReadOnly = true;
-            this.Email.Width = 140;
+            this.Email.Width = 160;
             // 
             // Codigo
             // 
@@ -303,7 +303,7 @@ namespace GerenciamentoDeClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(807, 390);
+            this.ClientSize = new System.Drawing.Size(768, 423);
             this.ControlBox = false;
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

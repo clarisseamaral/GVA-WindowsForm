@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeClientes.WinForms", "GerenciamentoDeClientes\GerenciamentoDeClientes.WinForms.csproj", "{C2521AAE-8376-4CC9-85E5-015A36E5C508}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeClientes.Negocio", "GerenciamentoDeClientes.Negocio\GerenciamentoDeClientes.Negocio.csproj", "{848B9ED8-E09B-4D0A-8E7D-CD386E18B0C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeClientes.Util", "GerenciamentoDeClientes.Util\GerenciamentoDeClientes.Util.csproj", "{3AB53356-0E69-456A-B051-DE06C47D7BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoDeClientes.Testes", "GerenciamentoDeClientes.Testes\GerenciamentoDeClientes.Testes.csproj", "{D74F7D4F-64F4-45DA-8028-349771276633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{3AB53356-0E69-456A-B051-DE06C47D7BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AB53356-0E69-456A-B051-DE06C47D7BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AB53356-0E69-456A-B051-DE06C47D7BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74F7D4F-64F4-45DA-8028-349771276633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74F7D4F-64F4-45DA-8028-349771276633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74F7D4F-64F4-45DA-8028-349771276633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74F7D4F-64F4-45DA-8028-349771276633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25A9625A-B76D-4D35-9D12-A55A890DC9A4}
 	EndGlobalSection
 EndGlobal

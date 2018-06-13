@@ -1,4 +1,5 @@
-﻿using GerenciamentoDeClientes.Dominio;
+﻿using GerenciamentoDeClientes.Dados.Contratos;
+using GerenciamentoDeClientes.Dominio;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +7,7 @@ using System.Linq;
 
 namespace GerenciamentoDeClientes.Dados
 {
-    public class RepositorioVenda
+    public class RepositorioVenda : IRepositorioVenda
     {
         private const string NomeArquivo = "vendas.txt";
         private const char Separador = '|';

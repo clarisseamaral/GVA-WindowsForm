@@ -171,7 +171,7 @@ namespace GerenciamentoDeClientes
         {
             var comboSource = new Dictionary<string, string>();
 
-            var clientes = CadastroCliente.BuscaTodosClientes().OrderBy(p => p.Nome);
+            var clientes = new CadastroCliente().BuscaTodosClientes().OrderBy(p => p.Nome);
 
             comboSource.Add("0", "");
 

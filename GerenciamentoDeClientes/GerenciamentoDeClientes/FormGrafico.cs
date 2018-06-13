@@ -27,10 +27,14 @@ namespace GerenciamentoDeClientes
 
         private void GerarGraficos()
         {
+            DateTime dataInicial, dataFinal;
+            DateTime.TryParse(txtDataInicial.Text.Replace("_", ""), out dataInicial);
+            DateTime.TryParse(txtDataFinal.Text.Replace("_", ""), out dataFinal);
+
             var filtro = new FiltroTelaVendas()
             {
-                DataInicial = String.IsNullOrWhiteSpace(txtDataInicial.Text.Replace("_", "").Replace("/", "")) ? (DateTime?)null : DateTime.Parse(txtDataInicial.Text),
-                DataFinal = String.IsNullOrWhiteSpace(txtDataFinal.Text.Replace("_", "").Replace("/", "")) ? (DateTime?)null : DateTime.Parse(txtDataFinal.Text),
+                DataInicial = dataInicial == DateTime.MinValue ? null : (DateTime?)dataInicial,
+                DataFinal = dataFinal == DateTime.MinValue ? null : (DateTime?)dataFinal,
             };
 
             var vendas = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
@@ -65,7 +69,7 @@ namespace GerenciamentoDeClientes
             dt.Columns.Add("Qtd", typeof(String));
             dt.Columns.Add("Valor", typeof(String));
 
-            vendasAgrupadas = vendasAgrupadas.OrderBy(v => v.Key.Year);
+            vendasAgrupadas = vendasAgrupadas.OrderBy(v => v.Key.Month);
             foreach (var valor in vendasAgrupadas)
             {
                 dt.Rows.Add(valor.Key.Month + "/" + valor.Key.Year, valor.Qtd, valor.Preco);
@@ -77,7 +81,7 @@ namespace GerenciamentoDeClientes
         private List<GraficoClientes> BuscarClientes(List<Venda> vendas)
         {
             var topclientes = from c in vendas
-                              group c by new {c.Cliente.Codigo, c.Cliente.Nome }
+                              group c by new { c.Cliente.Codigo, c.Cliente.Nome }
                                 into grouping
                               select new
                               {

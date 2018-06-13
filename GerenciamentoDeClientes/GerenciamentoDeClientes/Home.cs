@@ -121,5 +121,12 @@ namespace GerenciamentoDeClientes
             }
         }
 
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fechaTelaAberta();
+            var formSobre = new FormSobre();
+            formSobre.MdiParent = this;
+            formSobre.Show();
+        }
     }
 }

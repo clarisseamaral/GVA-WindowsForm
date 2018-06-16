@@ -11,6 +11,6 @@ namespace GerenciamentoDeClientes.Dados.Contratos
         Venda BuscaVendaPorCodigo(int codigo);
         IEnumerable<Venda> BuscaVendasComFiltro(FiltroTelaVendas venda);
         IEnumerable<Venda> BuscaVendasPorCliente(int codigoCliente);
-        void Cria(Venda venda);
+        bool Cria(Venda venda);
     }
 }

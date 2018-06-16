@@ -9,6 +9,6 @@ namespace GerenciamentoDeClientes.Dados.Contratos
         Cliente BuscaPorCodigo(int cod);
         IEnumerable<Cliente> BuscaPorNome(string nome);
         IEnumerable<Cliente> BuscaTodos();
-        void Cria(Cliente cliente);
+        bool Cria(Cliente cliente);
     }
 }

@@ -24,9 +24,9 @@ namespace GerenciamentoDeClientes.Negocio
             _repositorioVenda = repositorioVenda;
         }
 
-        public void CadastraCliente(Cliente cliente)
+        public bool CadastraCliente(Cliente cliente)
         {
-            _repositorioCliente.Cria(cliente);
+            return _repositorioCliente.Cria(cliente);
         }
 
         public IEnumerable<Cliente> BuscaClientePorNome(string nome)

@@ -68,7 +68,7 @@ namespace GerenciamentoDeClientes
                     lblNotificacao.Text = "A data inicial deve ser menor que a data final.";
                 else
                 {
-                    var lvenda = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
+                    var lvenda = new CadastroVenda().BuscaVendasComFiltro(filtro).ToList();
 
                     PreencheGrid(lvenda);
                 }
@@ -121,7 +121,7 @@ namespace GerenciamentoDeClientes
                     var message = MessageBox.Show(Properties.Resources.ConfirmarApagar, "", MessageBoxButtons.YesNo);
                     if (message == DialogResult.Yes)
                     {
-                        CadastroVenda.ApagaVenda(codigo);
+                        new CadastroVenda().ApagaVenda(codigo);
                         MessageBox.Show(Properties.Resources.DadoApagadoSucesso);
                         Recarregar();
                     }
@@ -134,7 +134,7 @@ namespace GerenciamentoDeClientes
         {
             try
             {
-                var vendas = CadastroVenda.BuscaTodasVendas().ToList();
+                var vendas = new CadastroVenda().BuscaTodasVendas().ToList();
                 PreencheGrid(vendas);
             }
             catch (Exception ex)

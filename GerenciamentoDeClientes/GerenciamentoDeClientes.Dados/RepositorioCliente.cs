@@ -19,13 +19,18 @@ namespace GerenciamentoDeClientes.Dados
             File.AppendAllText(NomeArquivo, "");
         }
 
-        public void Cria(Cliente cliente)
+        public bool Cria(Cliente cliente)
         {
+            if (String.IsNullOrEmpty(cliente.Nome) || String.IsNullOrEmpty(cliente.Sexo))
+                return false;
+
             if (cliente.Codigo == 0)
                 cliente.Codigo = BuscaProximoCodigo();
 
             var pacienteSerializado = string.Join(Separador.ToString(), cliente.Codigo, cliente.Nome,  cliente.Telefone, cliente.Email, cliente.DataNascimento, cliente.Sexo, cliente.CEP, cliente.Cidade, cliente.Rua,cliente.Bairro, cliente.Numero, cliente.UF, cliente.Observacoes);
             File.AppendAllText(NomeArquivo, pacienteSerializado + "\r\n");
+
+            return true;
         }
 
         private int BuscaProximoCodigo()

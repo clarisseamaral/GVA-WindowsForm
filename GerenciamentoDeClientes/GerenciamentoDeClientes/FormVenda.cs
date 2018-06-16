@@ -22,7 +22,7 @@ namespace GerenciamentoDeClientes
             CodigoVenda = codigo;
             InitializeComponent();
             CarregarTela();
-            var ldadosVenda = CadastroVenda.BuscaVendaPorCodigo(codigo);
+            var ldadosVenda = new CadastroVenda().BuscaVendaPorCodigo(codigo);
             txtDescricao.Text = ldadosVenda.Descricao;
 
             dtDataVenda.Text = ldadosVenda.DataVenda.ToString();
@@ -196,12 +196,12 @@ namespace GerenciamentoDeClientes
 
                         if (CodigoVenda > 0)
                         {
-                            CadastroVenda.AtualizaVenda(venda);
+                            new CadastroVenda().AtualizaVenda(venda);
                             FecharTela(Properties.Resources.DadosAlteradosSucesso);
                         }
                         else
                         {
-                            CadastroVenda.CadastraVenda(venda);
+                            new CadastroVenda().CadastraVenda(venda);
                             FecharTela(Properties.Resources.DadosInseridosSucesso);
                         }
                     }

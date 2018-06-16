@@ -17,12 +17,29 @@ namespace GerenciamentoDeClientes.Dados
             File.AppendAllText(NomeArquivo, "");
         }
 
-        public void Cria(Venda venda)
+        public bool Cria(Venda venda)
         {
-            //venda.Status = BuscaStatus(venda);
+            VerificarVenda(venda);
+
             venda.Codigo = BuscaProximoId();
             var consultaSerializado = string.Join(Separador.ToString(), venda.Codigo, venda.DataPagamento, venda.Cliente.Codigo, venda.Descricao, venda.DataVenda, venda.ValorTotal, venda.DataVencimento);
             File.AppendAllText(NomeArquivo, consultaSerializado + "\r\n");
+
+            return true;
+        }
+
+        private bool VerificarVenda(Venda venda)
+        {
+            var valid = true;
+
+            if (venda.DataVencimento < venda.DataVenda)
+                valid = false;
+            else if (venda.DataPagamento.HasValue && venda.DataPagamento.Value < venda.DataVenda)
+                valid = false;
+            else if (venda.DataVenda > DateTime.Now)
+                valid = false;
+
+            return valid;
         }
 
         public IEnumerable<Venda> BuscaVendasComFiltro(FiltroTelaVendas venda)

@@ -2,15 +2,15 @@
 using GerenciamentoDeClientes.Dados.Contratos;
 using GerenciamentoDeClientes.Dominio;
 using GerenciamentoDeClientes.Negocio;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
+using NUnit.Framework;
 
 namespace GerenciamentoDeClientes.Testes.Negocio
 {
-    [TestClass]
+    [TestFixture]
     public class TestesCadastroCliente
     {
-        [TestMethod]
+        [Test]
         public void ApagaClienteSemVenda()
         {
             var mockCliente = new Mock<IRepositorioCliente>();
@@ -18,12 +18,12 @@ namespace GerenciamentoDeClientes.Testes.Negocio
 
             var cadastroCliente = new CadastroCliente(mockCliente.Object, mockVendas.Object);
             var retorno = cadastroCliente.ApagaCliente(1);
-
+            
             Assert.IsTrue(retorno);
             mockCliente.Verify(r => r.ApagaCliente(1));
         }
 
-        [TestMethod]
+        [Test]
         public void ApagaClienteComVenda()
         {
             var mockCliente = new Mock<IRepositorioCliente>();
@@ -36,5 +36,19 @@ namespace GerenciamentoDeClientes.Testes.Negocio
             Assert.IsFalse(retorno);
             mockCliente.VerifyNoOtherCalls();
         }
+
+        [Test]
+        public void CadastraClienteSemCamposObrigatorios()
+        {
+            var mockCliente = new Mock<IRepositorioCliente>();
+            var mockVendas = new Mock<IRepositorioVenda>();
+
+            var cadastroCliente = new CadastroCliente(mockCliente.Object, mockVendas.Object);
+
+            var retorno = cadastroCliente.CadastraCliente(new Cliente() {  } );
+
+            Assert.IsFalse(retorno);
+        }
+
     }
 }

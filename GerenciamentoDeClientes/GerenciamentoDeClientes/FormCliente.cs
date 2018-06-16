@@ -131,20 +131,6 @@ namespace GerenciamentoDeClientes
             btnVoltar.Visible = true;
         }
 
-        private bool ValidaCamposPreenchidos()
-        {
-            var camposValidos = true;
-
-            if (String.IsNullOrWhiteSpace(txtNome.Text) || (!rbFeminino.Checked && !rbMasculino.Checked))
-                camposValidos = false;
-
-            if (camposValidos)
-                lblNotificacao.Text = string.Empty;
-            else
-                lblNotificacao.Text = Properties.Resources.CamposObrigatorios;
-
-            return camposValidos;
-        }
 
         private void FecharTela(string mensagem)
         {
@@ -171,67 +157,73 @@ namespace GerenciamentoDeClientes
         {
             lblNotificacao.Text = string.Empty;
 
-            if (ValidaCamposPreenchidos())
+            //if (ValidaCamposPreenchidos())
+            //{
+            try
             {
-                try
-                {
-                    var message = DialogResult.Yes;
+                var message = DialogResult.Yes;
 
+                if (CodigoCliente > 0)
+                    message = MessageBox.Show(Properties.Resources.ConfirmarEditar, "", MessageBoxButtons.YesNo);
+
+                if (message == DialogResult.Yes)
+                {
+                    var cliente = new Cliente();
+                    cliente.Nome = txtNome.Text;
+                    cliente.Telefone = String.IsNullOrWhiteSpace(txtTelefone.Text.Replace("-", "").Replace("(", "").Replace(")", "")) ? string.Empty : txtTelefone.Text;
+                    cliente.Email = txtEmail.Text;
+                    cliente.DataNascimento = String.IsNullOrWhiteSpace(dtDataNascimento.Text.Replace("/", "").Replace("_", "")) ? (DateTime?)null : DateTime.Parse(dtDataNascimento.Text);
+                    cliente.Codigo = CodigoCliente;
+                    cliente.Bairro = txtBairro.Text;
+                    cliente.CEP = txtCEP.Text;
+                    cliente.Cidade = txtCidade.Text;
+                    cliente.UF = txtUF.Text;
+                    cliente.Numero = String.IsNullOrWhiteSpace(txtNumero.Text) ? 0 : int.Parse(txtNumero.Text);
+                    cliente.Sexo = (!rbFeminino.Checked && !rbMasculino.Checked) ? string.Empty : rbFeminino.Checked ? "F" : "M";
+                    cliente.Rua = txtRua.Text;
+                    cliente.Observacoes = txtObservacoes.Text;
+
+                    var cadastroCliente = new CadastroCliente();
                     if (CodigoCliente > 0)
-                        message = MessageBox.Show(Properties.Resources.ConfirmarEditar, "", MessageBoxButtons.YesNo);
-
-                    if (message == DialogResult.Yes)
                     {
-                        var cliente = new Cliente();
-                        cliente.Nome = txtNome.Text;
-                        cliente.Telefone = String.IsNullOrWhiteSpace(txtTelefone.Text.Replace("-", "").Replace("(", "").Replace(")", "")) ? string.Empty : txtTelefone.Text;
-                        cliente.Email = txtEmail.Text;
-                        cliente.DataNascimento = String.IsNullOrWhiteSpace(dtDataNascimento.Text.Replace("/", "").Replace("_", "")) ? (DateTime?)null : DateTime.Parse(dtDataNascimento.Text);
-                        cliente.Codigo = CodigoCliente;
-                        cliente.Bairro = txtBairro.Text;
-                        cliente.CEP = txtCEP.Text;
-                        cliente.Cidade = txtCidade.Text;
-                        cliente.UF = txtUF.Text;
-                        cliente.Numero = String.IsNullOrWhiteSpace(txtNumero.Text) ? 0 : int.Parse(txtNumero.Text);
-                        cliente.Sexo = rbFeminino.Checked ? "F" : "M";
-                        cliente.Rua = txtRua.Text;
-                        cliente.Observacoes = txtObservacoes.Text;
-
-                        var cadastroCliente = new CadastroCliente();
-                        if (CodigoCliente > 0)
-                        {
-                            cadastroCliente.AtualizaCliente(cliente);
-                            FecharTela(Properties.Resources.DadosAlteradosSucesso);
-                        }
-                        else
-                        {
-                            cadastroCliente.CadastraCliente(cliente);
-
-                            FecharTela(Properties.Resources.DadosInseridosSucesso);
-                        }
-                    }
-                }
-                catch (FormatException ex)
-                {
-                    if (ex.Message.Contains("DateTime"))
-                    {
-                        lblNotificacao.Text = Properties.Resources.DataInvalida;
-                        focus = true;
-                        this.Refresh();
+                        cadastroCliente.AtualizaCliente(cliente);
+                        FecharTela(Properties.Resources.DadosAlteradosSucesso);
                     }
                     else
-                        lblNotificacao.Text = ex.Message;
-                }
-                catch (Exception ex)
-                {
-                    lblNotificacao.Text = ex.Message;
+                    {
+                        var cadastradoComSucesso = cadastroCliente.CadastraCliente(cliente);
+                        if (cadastradoComSucesso)
+                            FecharTela(Properties.Resources.DadosInseridosSucesso);
+                        else
+                        {
+                            lblNotificacao.Text = Properties.Resources.CamposObrigatorios;
+                            focus = true;
+                            this.Refresh();
+                        }
+                    }
                 }
             }
-            else
+            catch (FormatException ex)
             {
-                focus = true;
-                this.Refresh();
+                if (ex.Message.Contains("DateTime"))
+                {
+                    lblNotificacao.Text = Properties.Resources.DataInvalida;
+                    focus = true;
+                    this.Refresh();
+                }
+                else
+                    lblNotificacao.Text = ex.Message;
             }
+            catch (Exception ex)
+            {
+                lblNotificacao.Text = ex.Message;
+            }
+            // }
+            // else
+            // {
+            //     focus = true;
+            //     this.Refresh();
+            // }
         }
 
         private void Cancelar()

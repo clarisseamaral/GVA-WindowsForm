@@ -1,4 +1,5 @@
 ﻿using GerenciamentoDeClientes.Dados;
+using GerenciamentoDeClientes.Dados.Contratos;
 using GerenciamentoDeClientes.Dominio;
 using System;
 using System.Collections.Generic;
@@ -10,37 +11,48 @@ namespace GerenciamentoDeClientes.Negocio
 {
     public class CadastroVenda
     {
-        public static void CadastraVenda(Venda venda)
+        private readonly IRepositorioCliente _repositorioCliente;
+        private readonly IRepositorioVenda _repositorioVenda;
+
+        public CadastroVenda(): this(new RepositorioCliente(), new RepositorioVenda())
         {
-            new RepositorioVenda().Cria(venda);
         }
 
-        public static IEnumerable<Venda> BuscaVendasComFiltro(FiltroTelaVendas filtro)
+        public CadastroVenda(IRepositorioCliente repositorioCliente, IRepositorioVenda repositorioVenda)
         {
-            return new RepositorioVenda().BuscaVendasComFiltro(filtro);
+            _repositorioCliente = repositorioCliente;
+            _repositorioVenda = repositorioVenda;
         }
 
-        public static IEnumerable<Venda> BuscaTodasVendas()
+        public void CadastraVenda(Venda venda)
         {
-            return new RepositorioVenda().BuscaTodas();
+            _repositorioVenda.Cria(venda);
         }
 
-        public static void ApagaVenda(int codigo)
+        public IEnumerable<Venda> BuscaVendasComFiltro(FiltroTelaVendas filtro)
         {
-            new RepositorioVenda().ApagaVenda(codigo);
+            return _repositorioVenda.BuscaVendasComFiltro(filtro);
         }
 
-        public static Venda BuscaVendaPorCodigo(int codigo)
+        public IEnumerable<Venda> BuscaTodasVendas()
         {
-            return new RepositorioVenda().BuscaVendaPorCodigo(codigo);
+            return _repositorioVenda.BuscaTodas();
         }
 
-        public static void AtualizaVenda(Venda venda)
+        public void ApagaVenda(int codigo)
         {
-            new RepositorioVenda().ApagaVenda(venda.Codigo);
-            new RepositorioVenda().Cria(venda);
+            _repositorioVenda.ApagaVenda(codigo);
         }
 
-       
+        public Venda BuscaVendaPorCodigo(int codigo)
+        {
+            return _repositorioVenda.BuscaVendaPorCodigo(codigo);
+        }
+
+        public void AtualizaVenda(Venda venda)
+        {
+            _repositorioVenda.ApagaVenda(venda.Codigo);
+            _repositorioVenda.Cria(venda);
+        }
     }
 }

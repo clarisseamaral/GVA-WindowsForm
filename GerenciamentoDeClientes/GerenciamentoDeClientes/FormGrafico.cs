@@ -58,7 +58,7 @@ namespace GerenciamentoDeClientes
                     lblNotificacao.Text = "A data inicial deve ser menor que a data final.";
                 else
                 {
-                    var vendas = CadastroVenda.BuscaVendasComFiltro(filtro).ToList();
+                    var vendas = new CadastroVenda().BuscaVendasComFiltro(filtro).ToList();
 
                     var dt = BuscarDtGraficoVendas(vendas);
                     var dtClientes = BuscarClientes(vendas);
